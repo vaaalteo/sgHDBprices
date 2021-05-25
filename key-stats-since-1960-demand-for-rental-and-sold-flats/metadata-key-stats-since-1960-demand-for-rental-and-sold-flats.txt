@@ -1,0 +1,98 @@
+# Metadata for Demand for Rental and Sold Flats
+---
+Identifier: '6a83f0e1-798c-47bb-868a-629fb5ccc903'
+Name: 'key-stats-since-1960-demand-for-rental-and-sold-flats'
+Title: 'Demand for Rental and Sold Flats'
+Description: 'Key Stats since 1960. Data can also be found in HDB''s Annual Reports
+  under Key Statistics: http://www.hdb.gov.sg/cs/infoweb/about-us/news-and-publications/annual-reports'
+Topics:
+  - 'Infrastructure'
+Keywords:
+  - 'HDB'
+  - 'Housing'
+  - 'Property'
+  - 'Public Housing'
+  - 'Rental'
+Publisher:
+  Name: 'Housing and Development Board'
+  Admin 1:
+    Name: 'Michelle Tay'
+    Department: 'HDB'
+    Email: 'michelle_mb_tay@hdb.gov.sg'
+  Admin 2:
+    Name: 'Toh Xue Qin'
+    Department: 'HDB'
+    Email: 'toh_xue_qin@hdb.gov.sg'
+Sources:
+  - 'Housing and Development Board'
+Source Url: 'http://www.hdb.gov.sg/cs/infoweb/about-us/news-and-publications/annual-reports'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '1960-01-01 to 2018-12-31'
+Last Updated: '2020-01-02T05:59:53.249327'
+Resources:
+  -
+    Identifier: '31c215a9-f22d-4cfa-a8e9-fc624c50fedd'
+    Title: 'Demand for Rental and Sold Flats'
+    Url: 'https://storage.data.gov.sg/key-stats-since-1960-demand-for-rental-and-sold-flats/resources/demand-for-rental-and-sold-flats-2020-01-02T05-59-52Z.csv'
+    Format: 'CSV'
+    Coverage: '1960-01-01 to 2018-12-31'
+    Description:
+      - '* Figures for 1960-1965 Home Ownership Flats (i.e. 2,967) are only for applications
+        received in 1964 and 1965 to purchase Home Ownership flats.'
+      - '* Figures for FY 2014/15 include projected bookings for Sep 2014, Nov 2014
+        and Feb 2015 Build-To-Order and Nov 2014 Sales of Balance Flats exercises
+        as their selection exercises are either on-going or have yet to commence as
+        at 31 Mar 2015.'
+      - '* Figures for FY 2015/16 include projected bookings for Nov 2015 and Feb
+        2016 Build-To-Order and Nov 2015 Sales of Balance Flats exercises as their
+        selection exercises are either on-going or have yet to commence as at 31 Mar
+        2016.'
+      - ''
+      - 'i) From FY 1989/1990 applicants for resale flats are not included in the
+        figures on demand for Home Ownership flats.'
+      - ''
+      - 'ii) Demand for flats from FY 1991/1992 to FY 1993/1994 refers to new requests
+        received for direct purchase flats in mature and non-mature estates under
+        the Booking System.'
+      - ''
+      - 'iii) Figures from FY 1994/1995 to FY 1996/1997 include new applications received
+        under  the Registration for Flat System (RFS) and new requests made for mature
+        estates during the year.  The new requests for flats in mature estates exclude
+        requests from applicants who were on the RFS queue and those who had previously
+        applied for flats in mature estates.'
+      - ''
+      - 'iv) Figures from FY 1997/1998 to FY 2001/2002 refer to new applications received
+        under RFS and bookings under Walk-In-Selection (WIS). Data includes Studio
+        Apartments, 3-room and bigger flats.'
+      - ''
+      - 'v) Figures from FY 2003/2004 to FY 2014/2015 are based on bookings received
+        by HDB for Studio Apartments and bigger flats under the various allocation
+        exercises, as well as bookings under the Design, Build and Sell Scheme (DBSS).'
+      - ''
+      - 'vi) There were no DBSS launches in FY 2016 and FY 2017.'
+    Last Updated: '2020-01-02T05:59:52.461023'
+    Schema:
+      -
+        Name: 'start_year'
+        Title: 'Start Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'end_year'
+        Title: 'End Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'flat_type'
+        Title: 'Flat Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'demand_for_flats'
+        Title: 'Demand For Flats'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Count'
